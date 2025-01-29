@@ -1,7 +1,7 @@
 eval(UrlFetchApp.fetch('https://rawgit.com/medialize/URI.js/gh-pages/src/URI.js').getContentText());
 function urlPath(url){
   return URI(url).path()
-}
+} 
 let $ = Cheerio.load('<p></p>');
 
 let date = new Date().toISOString();
